@@ -59,3 +59,8 @@ Use SmoothingFunction method0 for BLEU, as described in the nltk documentation.
 Run this code on the three partitions of STSBenchmark to fill in the correlations table above.
 Use the --sts_data flag and edit PyCharm run configurations to run against different inputs,
  instead of altering your code for each file.
+
+Example usage:
+`python sys_pearson.py --sts_data stsbenchmark/sts-dev.csv`,
+`python sys_pearson.py --sts_data stsbenchmark/sts-test.csv`,
+`python sys_pearson.py --sts_data stsbenchmark/sts-train.csv`
